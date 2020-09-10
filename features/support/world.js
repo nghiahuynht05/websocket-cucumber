@@ -1,5 +1,5 @@
 var _ = require('lodash');
-var request = require('supertest')
+const request = require('supertest')
 var socketClient = require('socket.io-client');
 
 var { setWorldConstructor, setDefaultTimeout } = require('cucumber');
@@ -7,12 +7,16 @@ setDefaultTimeout(100000)
 
 function World() {
     this.storage = {}
-    this.wsUrl = "http://" + (process.env['JUPITER_LOCAL_URL']);
+    this.wsUrl = process.env['JUPITER_URL'];
+    this.apiUrlCC = 'http://' + (process.env['NEWCC_API']);
+
     this.wsClient = socketClient(this.wsUrl);
-    this.apiWsclient = request(this.wsUrl)
+    this.apiwsClient = request(this.wsUrl);
+    // this.apiWsclient = request(this.wsUrl)
+    this.apiClient = request(this.apiUrlCC)
 
     this.wsConstructor = socketClient;
-    this.storage = {}
+
     this.matchData = function (data, expect) {
         var self = this;
         if (_.isArray(expect) && _.isArray(data)) {

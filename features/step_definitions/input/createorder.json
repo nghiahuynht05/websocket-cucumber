@@ -1,0 +1,266 @@
+{
+    "platform": "Android",
+    "bookFrom": "MyCar",
+    "jupiter": {
+        "jobType": "delivery"
+    },
+    "psgInfo": {
+        "geo": [
+            108.214945875537,
+            16.0607736152151
+        ],
+        "shareLocation": false,
+        "creditInfo": {
+            "localToken": "",
+            "country": "",
+            "city": "",
+            "street": "",
+            "zipCode": "",
+            "state": "",
+            "cardType": "",
+            "crossToken": "",
+            "cardHolder": "",
+            "cardMask": "",
+            "gateway": ""
+        }
+    },
+    "request": {
+        "paymentType": 16,
+        "vehicleTypeRequest": "Delivery",
+        "pickUpTime": "Now",
+        "fleetId": "haidr",
+        "promo": "",
+        "sessionKey": ""
+    },
+    "deliveryInfo": {
+        "cashOnDelivery": true,
+        "cashOnPickUp": true,
+        "pickup": {
+            "name": "Nghia Huynh",
+            "phone": "+7400123789",
+            "address": {
+                "locationDetails": "54-56 Nguyen Van Linh street",
+                "zoneId": "5d6f2c05e4b00ab898f0aa5a",
+                "zoneName": "Da Nang, Viet Nam",
+                "from": "gg",
+                "address": "Hoang Hoa Tham, Thanh Khe District",
+                "addressDetails": {
+                    "cityName": "Da nang",
+                    "country": "Vietnam",
+                    "floor": "",
+                    "pointOfInterest": "",
+                    "political": "Vietnam",
+                    "postalCode": "550000",
+                    "room": "",
+                    "route": "",
+                    "streetNumber": ""
+                },
+                "instructionLink": "",
+                "geo": [
+                    108.2098238,
+                    16.0689328
+                ],
+                "zipCode": "550000",
+                "timezone": "Asia/Saigon",
+                "offset": "+07:00",
+                "businessName": "",
+                "cityName": "Da nang",
+                "country": "VN"
+            }
+        },
+        "merchants": [
+            {
+                "name": "Nghia Huynh",
+                "phone": "+447400123456",
+                "address": {
+                    "locationDetails": "",
+                    "zoneId": "5d6f2c05e4b00ab898f0aa5a",
+                    "zoneName": "Da Nang, Viet Nam",
+                    "from": "gg",
+                    "address": "82 Đ. 2 Tháng 9, Bình Hiên, Hải Châu, Da nang 550000",
+                    "addressDetails": {
+                        "cityName": "Da nang",
+                        "country": "Vietnam",
+                        "floor": "",
+                        "pointOfInterest": "",
+                        "political": "Vietnam",
+                        "postalCode": "550000",
+                        "room": "",
+                        "route": "",
+                        "streetNumber": ""
+                    },
+                    "instructionLink": "",
+                    "geo": [
+                        108.222400993109,
+                        16.0567043148036
+                    ],
+                    "zipCode": "550000",
+                    "timezone": "Asia/Saigon",
+                    "offset": "+07:00",
+                    "businessName": "",
+                    "cityName": "Da nang",
+                    "country": "VN"
+                },
+                "menuData": {
+                    "menuId": "1",
+                    "selectedItems": [
+                        "1"
+                    ]
+                }
+            }
+        ],
+        "recipients": [
+            {
+                "name": "Nghia Huynh",
+                "phone": "+447400123456",
+                "address": {
+                    "locationDetails": "",
+                    "zoneId": "5d6f2c05e4b00ab898f0aa5a",
+                    "zoneName": "Da Nang, Viet Nam",
+                    "from": "gg",
+                    "address": "82 Đ. 2 Tháng 9, Bình Hiên, Hải Châu, Da nang 550000",
+                    "addressDetails": {
+                        "cityName": "Da nang",
+                        "country": "Vietnam",
+                        "floor": "",
+                        "pointOfInterest": "",
+                        "political": "Vietnam",
+                        "postalCode": "550000",
+                        "room": "",
+                        "route": "",
+                        "streetNumber": ""
+                    },
+                    "instructionLink": "",
+                    "geo": [
+                        108.21199402213097,
+                        16.054601005072175
+                    ],
+                    "zipCode": "550000",
+                    "timezone": "Asia/Saigon",
+                    "offset": "+07:00",
+                    "businessName": "",
+                    "cityName": "Da nang",
+                    "country": "VN"
+                },
+                "order": 1,
+                "menuData": {
+                    "menuId": "1",
+                    "selectedItems": [
+                        "1"
+                    ]
+                }
+            },
+            {
+                "name": "Nghia Huynh",
+                "phone": "+447400123789",
+                "address": {
+                    "locationDetails": "",
+                    "zoneId": "5d6f2c05e4b00ab898f0aa5a",
+                    "zoneName": "Da Nang, Viet Nam",
+                    "from": "gg",
+                    "address": "82 Đ. 2 Tháng 9, Bình Hiên, Hải Châu, Da nang 550000",
+                    "addressDetails": {
+                        "cityName": "Da nang",
+                        "country": "Vietnam",
+                        "floor": "",
+                        "pointOfInterest": "",
+                        "political": "Vietnam",
+                        "postalCode": "550000",
+                        "room": "",
+                        "route": "",
+                        "streetNumber": ""
+                    },
+                    "instructionLink": "",
+                    "geo": [
+                        108.2189892232418,
+                        16.055363972935243
+                    ],
+                    "zipCode": "550000",
+                    "timezone": "Asia/Saigon",
+                    "offset": "+07:00",
+                    "businessName": "",
+                    "cityName": "Da nang",
+                    "country": "VN"
+                },
+                "order": 1,
+                "menuData": {
+                    "menuId": "1",
+                    "selectedItems": [
+                        "1"
+                    ]
+                }
+            }
+        ]
+    },
+    "instructions": {
+        "content": "",
+        "images": []
+    },
+    "pickup": {
+        "address": "Hoang Hoa Tham",
+        "geo": [
+            108.2098238,
+            16.0689328
+        ],
+        "timezone": "Asia/Saigon",
+        "cityName": "",
+        "zipCode": "550000"
+    },
+    "destination": {
+        "address": "Duy Tan University, Nguyễn Văn Linh, Thanh Khê District, Intercity",
+        "geo": [
+            108.2098773,
+            16.0600019
+        ],
+        "cityName": "",
+        "timezone": "Asia/Saigon",
+        "zipCode": "550000"
+    },
+    "distance": 16790,
+    "duration": 3690,
+    "paxNumber": 1,
+    "luggageNumber": 1,
+    "promoValue": "",
+    "tip": 0,
+    "vehicleType": [
+        "Intercity"
+    ],
+    "note": "",
+    "estimate": {
+        "distance": "16.5 km",
+        "estimateValue": 0,
+        "time": "18 minutes",
+        "fare": {
+            "min": false,
+            "techFee": 0,
+            "serviceFee": 0,
+            "dynamicSurcharge": 0,
+            "promoAmount": 0,
+            "etaFare": 0,
+            "otherFees": 0,
+            "tip": 0,
+            "typeRate": 0,
+            "normalFare": true,
+            "rushHourFee": 0,
+            "tax": 0,
+            "tollFee": 0,
+            "route": "",
+            "vehicleType": "Intercity",
+            "basicFare": 0,
+            "bookingFee": 0,
+            "currencyISO": "USD",
+            "meetDriverFee": 0,
+            "minFare": 0,
+            "airportFee": 0
+        }
+    },
+    "corporateInfo": {
+        "chargeCode": "",
+        "clientCaseMatter": "",
+        "corporateId": "",
+        "creditInfo": {}
+    },
+    "travelerType": 0,
+    "pegasus": false,
+    "pricingType": 0
+}

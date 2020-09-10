@@ -2,7 +2,7 @@
   "name": "jupiterws",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "",
   "scripts": {
     "test": "node -r dotenv/config ./node_modules/cucumber/bin/cucumber-js"
   },
@@ -14,7 +14,9 @@
     "cucumber": "^6.0.5",
     "cucumber-html-reporter": "^5.1.0",
     "dotenv": "^8.2.0",
+    "express": "^4.17.1",
     "lodash": "^4.17.15",
+    "moment-timezone": "^0.5.31",
     "mongodb": "^3.5.3",
     "request": "^2.88.2",
     "request-promise": "^4.2.5",

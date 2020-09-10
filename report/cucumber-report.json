@@ -1,0 +1,136 @@
+[
+  {
+    "description": "    As an passenger,\n    I want to update info passenger",
+    "keyword": "Feature",
+    "name": "Promotion program from MoF for Mycar: Edit profile passenger",
+    "line": 1,
+    "id": "promotion-program-from-mof-for-mycar:-edit-profile-passenger",
+    "tags": [],
+    "uri": "feature\\SL-14893-edit-profile-cutsomer.feature",
+    "elements": [
+      {
+        "id": "promotion-program-from-mof-for-mycar:-edit-profile-passenger;01.-check-case-verify-info-booking-top-srceen-booking-with-setting-show-fare",
+        "keyword": "Scenario",
+        "line": 7,
+        "name": "01. Check case verify info booking top srceen booking with setting show fare",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [
+              {
+                "rows": [
+                  {
+                    "cells": [
+                      "platform",
+                      "fleetId",
+                      "phone",
+                      "appType",
+                      "verifyCode",
+                      "ime",
+                      "appName",
+                      "rv",
+                      "password"
+                    ]
+                  },
+                  {
+                    "cells": [
+                      "android",
+                      "tiki",
+                      "+60123456780",
+                      "passenger",
+                      "1211",
+                      "354741079903994",
+                      "MyCar",
+                      "4.64200",
+                      "password"
+                    ]
+                  }
+                ]
+              }
+            ],
+            "keyword": "Given ",
+            "line": 8,
+            "name": "I want to register account",
+            "match": {
+              "location": "feature\\step_definitions\\common.step.js:10"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 14000000
+            }
+          },
+          {
+            "arguments": [
+              {
+                "rows": [
+                  {
+                    "cells": [
+                      "event",
+                      "requestData"
+                    ]
+                  },
+                  {
+                    "cells": [
+                      "editProfile",
+                      "{\"firstName\":\"Tiki\",\"lastName\":\"Customer 01\",\"gender\":\"0\",\"idPhoto\":\"ABC\",\"idNumber\":\"/9j/4AAQSkZJRgABA\"}"
+                    ]
+                  }
+                ]
+              }
+            ],
+            "keyword": "When ",
+            "line": 12,
+            "name": "I send a web socket request with event and data",
+            "match": {
+              "location": "feature\\step_definitions\\common.step.js:34"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2098000000
+            }
+          },
+          {
+            "arguments": [
+              {
+                "rows": [
+                  {
+                    "cells": [
+                      "response"
+                    ]
+                  },
+                  {
+                    "cells": [
+                      "{}"
+                    ]
+                  }
+                ]
+              }
+            ],
+            "keyword": "Then ",
+            "line": 16,
+            "name": "I should get the object result matches with",
+            "match": {
+              "location": "feature\\step_definitions\\common.step.js:75"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 8000000
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "match": {
+              "location": "feature\\support\\hook.js:3"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1000000
+            }
+          }
+        ]
+      }
+    ]
+  }
+]
